@@ -1,1 +1,1 @@
-# lcExercises
+# LeetCode exercises
