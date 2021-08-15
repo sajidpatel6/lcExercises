@@ -3,7 +3,7 @@ package pers.ssp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercise11_02 {
+public class Exercise0011_02 {
 
 //    You are given an n x n binary matrix grid. You are allowed to change at most one 0 to be 1.
 //
@@ -55,7 +55,7 @@ public class Exercise11_02 {
     }
 
     public static void main(final String[] args) {
-        final Exercise11_02 ex = new Exercise11_02();
+        final Exercise0011_02 ex = new Exercise0011_02();
 
 //        final int[][] grid = { { 1, 1, 1 }, { 0, 0, 0 }, { 1, 1, 1 } };
 

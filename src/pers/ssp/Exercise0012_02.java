@@ -1,6 +1,6 @@
 package pers.ssp;
 
-public class Exercise12_02 {
+public class Exercise0012_02 {
 
 //    Given a string s, partition s such that every substring of the partition is a palindrome.
 //
@@ -104,7 +104,7 @@ public class Exercise12_02 {
     }
 
     public static void main(final String[] args) {
-        final Exercise12_02 ex = new Exercise12_02();
+        final Exercise0012_02 ex = new Exercise0012_02();
         final String s = "adabdcaebdcebdcacaaaadbbcadabcbeabaadcbcaaddebdbddcbdacdbbaedbdaaecabdceddccbdeeddccdaabbabbdedaaabcdadbdabeacbeadbaddcbaacdbabcccbaceedbcccedbeecbccaecadccbdbdccbcbaacccbddcccbaedbacdbcaccdcaadcbaebebcceabbdcdeaabdbabadeaaaaedbdbcebcbddebccacacddebecabccbbdcbecbaeedcdacdcbdbebbacddddaabaedabbaaabaddcdaadcccdeebcabacdadbaacdccbeceddeebbbdbaaaaabaeecccaebdeabddacbedededebdebabdbcbdcbadbeeceecdcdbbdcbdbeeebcdcabdeeacabdeaedebbcaacdadaecbccbededceceabdcabdeabbcdecdedadcaebaababeedcaacdbdacbccdbcece";
         // expected -> 273
         final int result = ex.minCut(s);
