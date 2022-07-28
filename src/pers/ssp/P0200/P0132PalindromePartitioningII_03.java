@@ -73,31 +73,6 @@ public class P0132PalindromePartitioningII_03 {
         return s.substring(firstLIndex, lastLIndex + 1);
     }
 
-    private static String findRightPalindrome(final String s, final int startIndex, final int endIndex) {
-        boolean doContinue = true;
-
-        final int lastRIndex = endIndex;
-        int firstRIndex = s.indexOf(s.charAt(lastRIndex), startIndex);
-
-        while (doContinue) {
-            if (checkIfPalindrome(s, firstRIndex, lastRIndex)) {
-//                System.out.println("R " + s.substring(firstRIndex, lastRIndex + 1));
-//                lastRIndex = firstRIndex - 1;
-                break;
-            }
-
-            if (firstRIndex < (lastRIndex - 1)) {
-                firstRIndex = s.indexOf(s.charAt(lastRIndex), firstRIndex + 1);
-            }
-
-            if ((firstRIndex > endIndex)) {
-                doContinue = false;
-            }
-        }
-
-        return s.substring(firstRIndex, lastRIndex + 1);
-    }
-
     public static void main(final String[] args) {
         final P0132PalindromePartitioningII_03 ex = new P0132PalindromePartitioningII_03();
 //        final String s = "adabdcaebdcebdcacaaaadbbcadabcbeabaadcbcaaddebdbddcbdacdbbaedbdaaecabdceddccbdeeddccdaabbabbdedaaabcdadbdabeacbeadbaddcbaacdbabcccbaceedbcccedbeecbccaecadccbdbdccbcbaacccbddcccbaedbacdbcaccdcaadcbaebebcceabbdcdeaabdbabadeaaaaedbdbcebcbddebccacacddebecabccbbdcbecbaeedcdacdcbdbebbacddddaabaedabbaaabaddcdaadcccdeebcabacdadbaacdccbeceddeebbbdbaaaaabaeecccaebdeabddacbedededebdebabdbcbdcbadbeeceecdcdbbdcbdbeeebcdcabdeeacabdeaedebbcaacdadaecbccbededceceabdcabdeabbcdecdedadcaebaababeedcaacdbdacbccdbcece";
