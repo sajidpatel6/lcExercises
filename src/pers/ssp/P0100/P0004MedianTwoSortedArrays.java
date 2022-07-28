@@ -1,6 +1,6 @@
-package pers.ssp;
+package pers.ssp.P0100;
 
-public class Exercise0012 {
+public class P0004MedianTwoSortedArrays {
 
 //    Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 //
@@ -42,7 +42,7 @@ public class Exercise0012 {
 //            -106 <= nums1[i], nums2[i] <= 106
 
     public static void main(final String[] args) {
-        final Exercise0012 ex = new Exercise0012();
+        final P0004MedianTwoSortedArrays ex = new P0004MedianTwoSortedArrays();
         final int[] nums1 = {};
         final int[] nums2 = { 1, 2, 3, 4 };
         final double result = ex.findMedianSortedArrays(nums1, nums2);

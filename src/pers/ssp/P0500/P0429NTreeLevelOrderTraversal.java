@@ -1,9 +1,9 @@
-package pers.ssp;
+package pers.ssp.P0500;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercise0010 {
+public class P0429NTreeLevelOrderTraversal {
 
 //    Given an n-ary tree, return the level order traversal of its nodes' values.
 //
@@ -31,7 +31,7 @@ public class Exercise0010 {
 //            The total number of nodes is between [0, 104]
 
     public static void main(final String[] args) {
-        final Exercise0010 ex = new Exercise0010();
+        final P0429NTreeLevelOrderTraversal ex = new P0429NTreeLevelOrderTraversal();
 
         final Node child2 = new Node(2);
         final Node child6 = new Node(6);

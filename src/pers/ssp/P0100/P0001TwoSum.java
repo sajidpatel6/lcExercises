@@ -1,9 +1,9 @@
-package pers.ssp;
+package pers.ssp.P0100;
 
-public class Exercise0002 {
+public class P0001TwoSum {
 
     public static void main(final String[] args) {
-        final Exercise0002 ex = new Exercise0002();
+        final P0001TwoSum ex = new P0001TwoSum();
         final int[] nums = new int[] { 2, 7, 11, 15 };
 
         final int[] result = ex.twoSum(nums, 13);

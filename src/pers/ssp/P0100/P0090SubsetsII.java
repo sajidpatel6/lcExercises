@@ -1,14 +1,36 @@
-package pers.ssp;
+package pers.ssp.P0100;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Exercise0006 {
+public class P0090SubsetsII {
+
+//    Given an integer array nums that may contain duplicates, return all possible subsets (the power set).
+//
+//            The solution set must not contain duplicate subsets. Return the solution in any order.
+//
+//
+//
+//            Example 1:
+//
+//            Input: nums = [1,2,2]
+//            Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
+//            Example 2:
+//
+//            Input: nums = [0]
+//            Output: [[],[0]]
+//
+//
+//            Constraints:
+//
+//            1 <= nums.length <= 10
+//            -10 <= nums[i] <= 10
 
     public static void main(final String[] args) {
-        final Exercise0006 ex = new Exercise0006();
+        final P0090SubsetsII ex = new P0090SubsetsII();
         final int[] nums = { 4, 1, 0 }; // [[],[0],[0,1],[0,1,4],[0,4],[1],[1,4],[4]]
 
 //        final List<List<Integer>> result = ex.subsetsWithDup(nums);
